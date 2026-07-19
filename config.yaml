@@ -1,0 +1,22 @@
+# config.yaml
+
+random_seed: 42
+n_splits: 10
+shuffle_folds: true
+
+organisms:
+  rat:
+    input_dir: "data/rat/rat-gene-files"
+    output_dir: "results/xplat/rat"
+    output_prefix: "rat"
+    pairing_file: data/rat/rat_pairing.txt
+  arabidopsis:
+    input_dir: "data/arabidopsis/arabidopsis-gene-files"
+    output_dir: "results/xplat/arabidopsis"
+    output_prefix: "arabidopsis"
+    pairing_file: data/arabidopsis/arabidopsis_pairing.txt
+  human:
+    input_dir: "data/human/human-gene-files"
+    output_dir: "results/xplat/human"
+    output_prefix: "human"
+    pairing_file: data/human/human_pairing.txt
